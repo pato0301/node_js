@@ -2,7 +2,6 @@ const sort = {
     alfabetic : function(objeto, sortBy){
         let nombre_peliculas = [];
         if (sortBy === "original_title"){
-            //let filtro = Object.keys(objeto[0])[0]
             objeto.forEach(function(element){
                 nombre_peliculas.push(element.original_title)
             });

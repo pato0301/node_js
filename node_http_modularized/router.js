@@ -1,7 +1,4 @@
-// const http = require('http');
-// const fs = require('fs');
 const index = require('./src/index')
-// console.log(index.home.titulo);
 
 let router = {
     ruta: function(ruta,res){
@@ -83,27 +80,3 @@ let router = {
 };
 
 module.exports = router;
-
-// function route (pathName,res){
-//     console.log("Nuevas peticiones");
-//     switch(pathName){
-//         case '/':
-//             return res.end("Home Page")//index.home
-//             break;
-//         default:
-//             break;
-//     };
-// }
-
-// exports.route = route
-
-// module.exports = route;
-//const index = require('./src/index.js');
-
-
-// module.exports = router;
-
-// console.log(index);
-
-
-// console.log("Router funciona")

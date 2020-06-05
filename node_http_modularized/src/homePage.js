@@ -1,7 +1,6 @@
 const fs = require('fs');
 let path = require("path");
 const alfabet = require('../customFunction');
-//const movies = require('../data/movies.json')
 let moviesJson = fs.readFileSync(path.join(__dirname, '..', '/data/movies.json'), 'utf8');
 let movies = JSON.parse(moviesJson);
 let order_movies = alfabet.alfabetic(movies.movies,"original_title");

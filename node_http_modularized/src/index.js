@@ -15,5 +15,3 @@ let index = {
 }
 
 module.exports = index;
-
-// console.log(index);
