@@ -1,0 +1,115 @@
+/*=========================================
+Import Font Type
+===========================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Work+Sans:wght@100;300;400;700&display=swap');
+
+body {
+    font-family: 'Open Sans';
+    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+}
+
+body.about {
+    background-image: url('../img/emilia-about.jpg');
+}
+
+body.home {
+    background-image: url('../img/emilia-home.jpg');
+}
+
+body.music-contact {
+    background-image: url('../img/emilia-music-top.jpg');
+    background-position: right top;
+    background-size: 100%;
+}
+
+
+ul.upper li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ol li {
+    list-style-type: decimal-leading-zero;
+}
+
+h2 {
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+} 
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.fondo-transparente {
+    background-color: rgba(255,255,255,0.3);
+}
+
+ul.about{
+    /* color: rgb(0,124,100);
+    font-family: 'Work Sans';
+    font-weight: 100;
+    font-size: 20px; */
+    list-style-type: none;
+}
+
+h3.music {
+    text-transform: uppercase;
+}
+
+.go-to {
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.music-links {
+    color: grey;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+h5.contact {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: rgb(0,124,100);
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+.about-info-artist {
+    color: rgb(0,124,100);
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+.text-info-artist {
+    font-size: 27px;
+}
+
+span {
+    color: grey;
+}
